@@ -1,0 +1,17 @@
+# Copyright (c) 2022-2023 tangchunhui@coros.com
+#
+# SPDX-License-Identifier: Apache-2.0
+
+menuconfig LIBRARY_TEMPLATE
+    bool "Library Template Configuration"
+
+if LIBRARY_TEMPLATE
+
+config LIBRARY_TEMPLATE_STATIC
+    bool "Template Static Library"
+    default y
+
+config LIBRARY_TEMPLATE_SHARED
+    bool "Template Shared Library"
+
+endif

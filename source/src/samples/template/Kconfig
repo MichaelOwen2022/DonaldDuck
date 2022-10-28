@@ -1,0 +1,14 @@
+# Copyright (c) 2022-2023 tangchunhui@coros.com
+#
+# SPDX-License-Identifier: Apache-2.0
+
+menuconfig SAMPLES_TEMPLATE
+    bool "Samples Template Configuration"
+
+if SAMPLES_TEMPLATE
+
+config SAMPLES_TEMPLATE_WELCOME
+    string "Welcome"
+    default "Welcome to template samples"
+
+endif

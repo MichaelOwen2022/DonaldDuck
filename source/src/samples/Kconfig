@@ -1,0 +1,12 @@
+# Copyright (c) 2022-2023 tangchunhui@coros.com
+#
+# SPDX-License-Identifier: Apache-2.0
+
+menuconfig SAMPLES
+    bool "Samples Configuration"
+
+if SAMPLES
+
+source "source/src/samples/template/Kconfig"
+
+endif

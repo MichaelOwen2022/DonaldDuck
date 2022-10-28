@@ -1,0 +1,12 @@
+# Copyright (c) 2022-2023 tangchunhui@coros.com
+#
+# SPDX-License-Identifier: Apache-2.0
+
+menuconfig LIBRARY
+    bool "Library Configuration"
+
+if LIBRARY
+
+source "source/src/library/template/Kconfig"
+
+endif
