@@ -1,0 +1,17 @@
+# Copyright (c) 2022-2023 tangchunhui@coros.com
+#
+# SPDX-License-Identifier: Apache-2.0
+
+menuconfig LIBRARY_MINIWAVE
+    bool "Library MiniWave Configuration"
+
+if LIBRARY_MINIWAVE
+
+config LIBRARY_MINIWAVE_STATIC
+    bool "MiniWave Static Library"
+    default y
+
+config LIBRARY_MINIWAVE_SHARED
+    bool "MiniWave Shared Library"
+
+endif

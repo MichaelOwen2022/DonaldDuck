@@ -1,0 +1,10 @@
+# Copyright (c) 2022-2023 tangchunhui@coros.com
+#
+# SPDX-License-Identifier: Apache-2.0
+
+menuconfig SAMPLES_MINIWAVE
+    bool "Samples MiniWave Configuration"
+
+if SAMPLES_MINIWAVE
+
+endif

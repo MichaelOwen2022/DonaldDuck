@@ -8,5 +8,6 @@ menuconfig SAMPLES
 if SAMPLES
 
 source "source/src/samples/template/Kconfig"
+source "source/src/samples/miniwave/Kconfig"
 
 endif

@@ -8,5 +8,6 @@ menuconfig LIBRARY
 if LIBRARY
 
 source "source/src/library/template/Kconfig"
+source "source/src/library/miniwave/Kconfig"
 
 endif
